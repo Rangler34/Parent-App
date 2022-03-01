@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/textViewDateTime"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="30"/>
+
+    <TextView
+        android:id="@+id/textViewPicker"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="20"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageViewPicker"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="20"
+        android:scaleType="fitCenter"
+        tools:srcCompat="@drawable/default_photo" />
+
+    <TextView
+        android:id="@+id/textViewFlipResult"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="15"/>
+
+    <ImageView
+        android:id="@+id/imageViewResult"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="15"
+        android:gravity="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+Scrum Roles for Iteration 1
+
+Scrum Master: Maryam Raoofi
+Product Owner: Dajeong Seong
+Repo Manager: Chaoer Liang
+Team Member: Inderpreet Rangi
+
+Iteration 2:
+Scrum Master: Inderpreet Rangi
+Product Owner: Chaoer Liang
+Repo Manager: Dajeong Seong
+Team Member: Maryam Raoofi
+
+Iteration 3:
+Scrum Master: Dajeong Seong
+Product Owner: Inderpreet Rangi
+Repo Manager: Maryam Raoofi
+Team Member: Chaoer Liang

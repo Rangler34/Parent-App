@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Practical Parent</string>
+    <string name="title_activity_child_info">Child Information</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_timeout">Timeout</string>
+    <string name="title_activity_coin_flip">Coin Flip</string>
+    <string name="title_activity_add_child">Add your Child</string>
+    <string name="title_activity_edit_child">Edit child\'s Name and Picture</string>
+    <string name="title_activity_add_task">Add a Task</string>
+    <string name="title_activity_edit_task">Edit Task\'s Name</string>
+    <string name="title_activity_task_info">Task Information</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_task_history">Task History</string>
+    <string name="title_activity_breath">Take Breath</string>
+
+    <string name="comma">,</string>
+    <string name="tell_picker_to_pick">choose Heads or Tails: </string>
+    <string name="title_activity_set_up_coin_flip">Set Up Coin Flip</string>
+    <string name="title_activity_coin_flip_history">Coin Flip History</string>
+    <string name="title_activity_coin_flip_no_children">Coin Flip</string>
+    <string name="title_activity_flip_coin">Flip the Coin!</string>
+    <string name="title_activity_change_picker">Change Picker</string>
+
+    <string name="heads">Head</string>
+    <string name="tails">Tail</string>
+    <string name="flip_the_coin">Flip the coin!</string>
+    <string name="view_coin_flip_history">View\nCoin Flip\nHistory</string>
+
+    <string name="date_time">Date &amp; Time</string>
+    <string name="picker">Picker</string>
+    <string name="side_picked">SidePicked</string>
+    <string name="coin_flip_result">Result</string>
+    <string name="picker_win">Won?</string>
+    <string name="no_child_picked">No child picked</string>
+
+    <string name="task_header">Task</string>
+    <string name="turn_header">Next Turn</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="select_length_for_timer">Select timer length:</string>
+    <string name="syntax_for_timer_length_input">(Type in an integer above, with no spaces.)</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="timer_done">Timer Done</string>
+    <string name="notification_message">To stop sound, click notification and click reset button</string>
+
+    <string name="tasks">Tasks</string>
+    <string name="children">Children</string>
+    <string name="timeout">Timeout</string>
+    <string name="coin_flip">Coin Flip</string>
+    <string name="help">Help</string>
+
+    <string name="noChildReminder">"No names on list yet. Press the plus button to add a child!"</string>
+    <string name="disableNoChildReminder">" "</string>
+
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="pause">Pause</string>
+    <string name="set">Set</string>
+
+    <string name="fill_in_blank">Please fill in the blank.</string>
+    <string name="enter_minutes">Please enter the minutes.</string>
+    <string name="enter_positive_number">Please enter a positive number.</string>
+
+    <string name="minutes">minutes</string>
+    <string name="num_minutes">%1$d minutes</string>
+    <string name="times_up">00:00</string>
+    <string name="customize_length">Or select other # of minutes:</string>
+
+    <string name="head_w_exclamation">"Head!"</string>
+    <string name="tail_w_exclamation">"Tail!"</string>
+    <string name="enter_a_name">Please enter a name:</string>
+    <string name="enter_a_task">Please enter a task:</string>
+    <string name="edit_name">Edit the name:</string>
+    <string name="edit_task">Edit the task:</string>
+    <string name="child_added">Child added</string>
+    <string name="task_added">Task added</string>
+    <string name="name_is_updated">Name is updated.</string>
+    <string name="task_updated">Task is updated.</string>
+    <string name="save">Save</string>
+    <string name="na">N/A</string>
+
+    <string name="change_picker">Change Picker</string>
+    <string name="new_picker">New picker: </string>
+    <string name="picker_queue_explanation">The following is a list of the upcoming pickers in order:</string>
+    <string name="flip_coin_without_picker">Flip Coin\nWithout\nA Picker</string>
+    <string name="pop_up_title">Task Information</string>
+    <string name="pop_up_button">Return</string>
+    <string name="no_child">No Child Assigned</string>
+    <string name="advance_to_next_child">Advance to next child?</string>
+    <string name="complete_task">Complete Task</string>
+    <string name="cancel">Cancel</string>
+    <string name="child_info">Child Info:</string>
+    <string name="child">Child:</string>
+    <string name="task_info">Task Info:</string>
+    <string name="info">info</string>
+    <string name="task_history">Task History</string>
+
+    <string name="team_info">Team: Cobalt 7 \n\nDevelopers: \n\nInderpreet \n\nMaryam \n\nChaoer \n\nDajeong</string>
+    <string name="resources">Resource links:</string>
+    <string name="icon_link"><a href='https://www.flaticon.com'>Button Icons</a></string>
+    <string name="bg_link"> <a href='https://www.freepik.com'>Background images</a> </string>
+    <string name="other_link"><a href='https://bilgi-sayar.net/n-a/'> Other images</a></string>
+
+    <string name="photo_is_removed">Photo is removed.</string>
+
+    <string name="task_turn_input_instructions">Input order: (eg. 1 is the first child to do the task)</string>
+    <string name="please_remove_duplicate_numbers">Please remove duplicate numbers.</string>
+    <string name="turn_number_invalid">Some input numbers are out of bounds.</string>
+
+
+    <string name="button_in_msg">Breath in</string>
+    <string name="button_out_msg">Breath Out</string>
+    <string name="button_done_msg">Good Job</string>
+    <string name="start_msg">Press Begin to start</string>
+    <string name="done_msg">You finished your breaths, click good job to restart</string>
+    <string name="inhale_msg">Press and hold button to breath in</string>
+    <string name="exhale_msg">Release button to breath out</string>
+    <string name="display_breaths">Breaths Taken: </string>
+    <string name="percent">%</string>
+
+    <string name="speedTitle">Choose speed after timer started</string>
+    <string name="_25_speed">25% speed</string>
+    <string name="_50_speed">50% speed</string>
+    <string name="_75_speed">75% speed</string>
+    <string name="_100_speed">100% speed</string>
+    <string name="_200_speed">200% speed</string>
+    <string name="_300_speed">300% speed</string>
+    <string name="_400_speed">400% speed</string>
+    <string name="speedStatement">Time @%1$d %%</string>
+    <string name="speedToast">Please start timer first</string>
+
+    <string name="date_completed">Date Completed</string>
+    <string name="child_name">Child Name</string>
+
+</resources>

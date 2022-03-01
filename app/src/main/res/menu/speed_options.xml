@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/speedTitle"
+        android:title="@string/speedTitle"
+        android:checkable="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/speed25"
+        android:title="@string/_25_speed"
+        app:showAsAction="never|collapseActionView" />
+
+    <item android:title="@string/_50_speed"
+        android:id="@+id/speed50"
+        app:showAsAction="never" />
+    <item android:title="@string/_75_speed"
+        android:id="@+id/speed75"
+        app:showAsAction="never"
+        />
+    <item android:title="@string/_100_speed"
+        android:id="@+id/speed100"
+        app:showAsAction="never"
+        />
+    <item android:title="@string/_200_speed"
+        android:id="@+id/speed200"
+        app:showAsAction="never" />
+    <item android:title="@string/_300_speed"
+        android:id="@+id/speed300"
+        app:showAsAction="never"
+        />
+    <item android:title="@string/_400_speed"
+        android:id="@+id/speed400"
+        app:showAsAction="never"
+        />
+
+
+</menu>

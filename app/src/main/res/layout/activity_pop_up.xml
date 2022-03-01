@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/taskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/task_info"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/taskDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/info"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/taskName"
+        app:layout_constraintTop_toTopOf="@id/taskName" />
+
+    <TextView
+        android:id="@+id/childName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/child"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/taskName"
+        app:layout_constraintTop_toBottomOf="@id/taskName" />
+
+    <TextView
+        android:id="@+id/childInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/child_info"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/childName"
+        app:layout_constraintTop_toTopOf="@id/childName" />
+
+    <ImageView
+        android:id="@+id/childImage"
+        android:layout_width="71dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="80dp"
+        app:layout_constraintStart_toEndOf="@id/childInfo"
+        app:layout_constraintBottom_toBottomOf="@id/childInfo"
+        android:src="@drawable/default_photo" />
+
+    <ImageView
+        android:id="@+id/childImageDefault"
+        android:layout_width="71dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="80dp"
+        app:layout_constraintStart_toEndOf="@id/childInfo"
+        app:layout_constraintBottom_toBottomOf="@id/childInfo"
+        android:src="@drawable/default_photo"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/completeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/complete_task"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/childName" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="@id/taskHistoryButton"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/taskHistoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/task_history"
+        app:layout_constraintTop_toBottomOf="@id/completeBtn"
+        app:layout_constraintStart_toStartOf="@id/completeBtn"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

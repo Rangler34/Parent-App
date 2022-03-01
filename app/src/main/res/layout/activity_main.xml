@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackground"
+    tools:context=".ui.MainActivity">
+
+
+    <Button
+        android:id="@+id/coinFlipBtn"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_coin"
+        android:text="@string/coin_flip"
+        android:textColor="#EADDCA"
+        app:layout_constraintBottom_toTopOf="@+id/helpBtn"
+        app:layout_constraintTop_toBottomOf="@+id/timeoutBtn"
+        tools:layout_editor_absoluteX="16dp"
+        app:layout_constraintStart_toStartOf="@id/guideline2" />
+
+    <Button
+        android:id="@+id/taskBtn"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/task"
+        android:text="@string/tasks"
+        android:textColor="#EADDCA"
+        app:layout_constraintBottom_toTopOf="@+id/breathBtn"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/childBtn" />
+
+    <Button
+        android:id="@+id/breathBtn"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_lungs"
+        android:text="Take Breath"
+        android:textColor="#EADDCA"
+        app:layout_constraintBottom_toTopOf="@+id/timeoutBtn"
+        app:layout_constraintTop_toBottomOf="@+id/taskBtn"
+        tools:layout_editor_absoluteX="16dp"
+        app:layout_constraintStart_toStartOf="@id/guideline2"/>
+
+    <Button
+        android:id="@+id/timeoutBtn"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_hourglass"
+        android:text="@string/timeout"
+        android:textColor="#EADDCA"
+        app:layout_constraintBottom_toTopOf="@+id/coinFlipBtn"
+        app:layout_constraintTop_toBottomOf="@+id/breathBtn"
+        tools:layout_editor_absoluteX="16dp"
+        app:layout_constraintStart_toStartOf="@id/guideline2" />
+
+    <Button
+        android:id="@+id/childBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_kids"
+        android:text="@string/children"
+        android:textColor="#EADDCA"
+        app:layout_constraintBottom_toTopOf="@+id/taskBtn"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="@id/guideline7" />
+
+    <Button
+        android:id="@+id/helpBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_help"
+        android:text="@string/help"
+        android:textColor="#EADDCA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/childBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/coinFlipBtn" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
